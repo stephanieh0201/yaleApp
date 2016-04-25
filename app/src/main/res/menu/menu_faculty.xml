@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/admin"
+        android:title="Administration and Staff"
+        />
+
+    <item
+        android:id="@+id/graphicDesign"
+        android:title="Graphic Design"
+        />
+
+    <item
+        android:id="@+id/painting"
+        android:title="Painting and Printmaking"
+        />
+
+    <item
+        android:id="@+id/photography"
+        android:title="Photography"
+        />
+
+    <item
+        android:id="@+id/sculpture"
+        android:title="Sculpture"
+        />
+    <item
+        android:id="@+id/film"
+        android:title="Film/Video/Interdisciplinary"
+        />
+</menu>

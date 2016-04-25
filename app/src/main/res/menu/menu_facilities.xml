@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/galleries"
+        android:title="Galleries"
+        />
+
+    <item
+        android:id="@+id/libraries"
+        android:title="Libraries"
+        />
+
+    <item
+        android:id="@+id/labs"
+        android:title="Labs"
+        />
+
+    <item
+        android:id="@+id/learningCenters"
+        android:title="Learning Centers"
+        />
+
+
+</menu>

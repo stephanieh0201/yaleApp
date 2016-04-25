@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/undergrad"
+        android:title="Undergraduate Programs"
+        />
+
+    <item
+        android:id="@+id/grad"
+        android:title="Graduate Programs"
+        />
+
+    <item
+        android:id="@+id/summer"
+        android:title="Summer Programs"
+        />
+
+    <item
+        android:id="@+id/courses"
+        android:title="Courses"
+        />
+
+</menu>

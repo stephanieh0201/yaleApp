@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/financial"
+        android:title="Financial Aid"
+        />
+
+    <item
+        android:id="@+id/current"
+        android:title="Current Students"
+        />
+
+    <item
+        android:id="@+id/work"
+        android:title="Work and Projects"
+        />
+
+
+</menu>

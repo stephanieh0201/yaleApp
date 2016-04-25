@@ -1,0 +1,176 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"> <!--IMPORTANT otherwise backgrnd img. will not fill the whole screen -->
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="#FFFFFF"
+        android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+        <TextView
+            android:text="@string/school_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/Logo"
+            android:layout_toRightOf="@+id/Logo"
+            android:layout_toEndOf="@+id/Logo"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="26dp"
+            android:textSize="@dimen/school_name_text_size"
+            android:textStyle="bold"
+            android:textColor="#043669"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="40dp"
+            android:maxHeight="40dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:id="@+id/Logo"
+            android:src="@drawable/yale_school_of_art"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/horseImage"
+            android:src="@drawable/horse"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_below="@id/Logo"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/academicsButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/horseImage"
+            android:text="Academics"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:background="#043669"
+            android:textColor="#F7F7F7"
+            android:onClick="changelayout"/>
+
+
+        <Button
+            android:id="@+id/admissionsButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/academicsButton"
+            android:text="Admissions"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:background="#2D6FBD"
+            android:textColor="#F7F7F7"/>
+
+        <Button
+            android:id="@+id/requirementsButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/admissionsButton"
+            android:text="Entrance Requirements"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:background="#F7F7F7"
+            android:textColor="#043669"/>
+        <Button
+            android:id="@+id/applicationButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/requirementsButton"
+            android:text="Application Process"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:background="#F7F7F7"
+            android:textColor="#043669"/>
+
+        <Button
+            android:id="@+id/tuitionButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/applicationButton"
+            android:text="Tuition and Fees"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:background="#F7F7F7"
+            android:textColor="#043669"/>
+        android:textColor="#043669"/>
+        <Button
+            android:id="@+id/visitButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/tuitionButton"
+            android:text="Visit"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:background="#F7F7F7"
+            android:textColor="#043669"/>
+
+        <Button
+            android:id="@+id/studentLifeButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/visitButton"
+            android:text="Student Life"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:background="#043669"
+            android:textColor="#F7F7F7"/>
+        <Button
+            android:id="@+id/facultyButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/studentLifeButton"
+            android:text="Faculty and Staff"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:background="#043669"
+            android:textColor="#F7F7F7"/>
+        <Button
+            android:id="@+id/facilitiesButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/facultyButton"
+            android:text="Facilities"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:background="#043669"
+            android:textColor="#F7F7F7"/>
+
+        <Button
+            android:id="@+id/calendarButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/facilitiesButton"
+            android:text="Calendar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:background="#043669"
+            android:textColor="#F7F7F7"/>
+
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

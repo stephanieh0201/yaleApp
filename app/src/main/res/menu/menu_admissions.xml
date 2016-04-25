@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/requirements"
+        android:title="Entrance Requirements"
+        />
+
+    <item
+        android:id="@+id/application"
+        android:title="Application Process"
+        />
+
+    <item
+        android:id="@+id/tuition"
+        android:title="Tuition and Fees"
+        />
+
+    <item
+        android:id="@+id/visit"
+        android:title="Visit"
+        />
+
+</menu>
